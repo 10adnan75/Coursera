@@ -1,0 +1,28 @@
+Question: Given two integer arrays of size n, design a subquadratic algorithm to determine whether one is a permutation of the other. 
+          That is, do they contain exactly the same entries but, possibly, in a different order.
+
+Answer:
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Permutation {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter size: ");
+        int n = input.nextInt();
+        int[] a = new int[n], b = new int[n];
+        System.out.println("Enter 1st array elements: ");
+        for (int i=0; i<n; i++) a[i] = input.nextInt();
+        System.out.println("Enter 2nd array elements: ");
+        for (int i=0; i<n; i++) b[i] = input.nextInt();
+        Arrays.sort(a);
+        Arrays.sort(b);
+        for (int i=0; i<n; i++) {
+            if (a[i]!=b[i]) {
+                System.out.println("No");
+                System.exit(0);
+            }
+        }
+        System.out.println("Yes");
+    }
+}
