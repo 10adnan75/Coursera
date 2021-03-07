@@ -10,4 +10,4 @@ Answer: Version 0: sequential search.
         Version 1: binary search.
         Version 2: find an interval containing T of size ≤2T, then do binary search.
         Version 3: find an interval of size sqrt(n), then do sequential search. 
-        Version 4:  1 + 2 + 3 + ... + t ∼ 1/2 t^2. Aim for c = 2 sqrt(2). 
+        Version 4: 1 + 2 + 3 + ... + t ∼ 1/2 t^2. Aim for c = 2 sqrt(2). 
