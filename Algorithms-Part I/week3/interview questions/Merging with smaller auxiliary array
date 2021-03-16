@@ -1,0 +1,5 @@
+Question: Suppose that the subarray a[0] to a[n−1] is sorted and the subarray a[n] to a[2∗n−1] is sorted. 
+          How can you merge the two subarrays so that a[0] to a[2∗n−1] is sorted using an auxiliary array of length n (instead of 2n)?
+        
+Answer: Declare only one auxiliary array of length n and copy all the elements of subarray a[0] through a[n-1] into it. 
+        Let the subarray a[0] to a[2*n-1] be as it is and then apply mergesort between auxiliary array and the right subarray.
