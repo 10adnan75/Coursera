@@ -8,4 +8,5 @@ Question: Given an array of n buckets, each containing a red, white, or blue peb
           Constant extra space.
           
 Answer: Use algorithm for 3-way-partitioning.
-        Refer to this (similar algorithm). https://github.com/10adnan75/DSA/blob/main/sort_array_0_1_2.cpp/
+        Refer to this [similar algorithm](https://github.com/10adnan75/DSA/blob/main/sort_array_0_1_2.cpp) 
+        
