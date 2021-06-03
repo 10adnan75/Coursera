@@ -5,69 +5,76 @@ Question: A taxicab number is an integer that can be expressed as the sum of two
           Version 1: Use time proportional to (n^2 log n) and space proportional to (n^2).
           Version 2: Use time proportional to (n^2 log n) and space proportional to (n).
           
-Answer: 
+Answer: Imagine a 2-D matrix m[i][j] = i^3 + j^3. We don't have to create this matrix in memory. 
+        Row items are in ascending order and column items are in ascending order too. 
+        We could use a minHeap (minPQ) to store the diagonal first. 
+        Then do the following steps until minHeap is empty:
+          1. Get current min (minCur) from the minHeap, compare it to the preMin, if they are equal, we find a pair of sums (a^3+b^3=c^3+d^3).
+          2. Put the item to the right of minCur in matrix to the minHeap.
+        
         Algorithm:
         class Taxicab implements Comparable<Taxicab> {
-          int n1;
-          int n2;
-          int cube;
+            int n1;
+            int n2;
+            int cube;
 
-          Taxicab(int n1, int n2) {
-            this.n1 = n1;
-            this.n2 = n2;
-            this.cube = n1 * n1 * n1 + n2 * n2 * n2;
-          }
-
-          @Override
-          public int compareTo(Taxicab that) {
-            if (that.cube > this.cube) return -1;
-            if (that.cube < this.cube) return 1;
-            return 0;
-          }
-
-          @Override
-          public boolean equals(Object o) {
-            if (o instanceof Taxicab) {
-                if (((Taxicab)o).compareTo(this) == 0)
-                  return true;
+            Taxicab(int n1, int n2) {
+                this.n1 = n1;
+                this.n2 = n2;
+                this.cube = n1 * n1 * n1 + n2 * n2 * n2;
             }
-            return false;
-          }
 
-          @Override
-          public String toString() {
-            return "number: " + cube + " (" + n1 + ", " + n2 + ")";
-          }
+            @Override
+            public int compareTo(Taxicab that) {
+                if (that.cube > this.cube) return -1;
+                if (that.cube < this.cube) return 1;
+                return 0;
+            }
+
+            @Override
+            public boolean equals(Object o) {
+                if (o instanceof Taxicab) {
+                    if (((Taxicab)o).compareTo(this) == 0)
+                        return true;
+                }
+                return false;
+            }
+
+            @Override
+            public String toString() {
+                return "number: " + cube + " (" + n1 + ", " + n2 + ")";
+            }
         }  
 
         public void findTaxinumber(int N) {
-          MinPQ<Taxicab> candidates = new MinPQ<Taxicab>();
+            MinPQ<Taxicab> candidates = new MinPQ<Taxicab>();
 
-          for (int i = 1; i <= N; i++) {
-            for (int j = i + 1; j <= N; j++) {
-              Taxicab t = new Taxicab(i, j);
-              if (candidates.size() < N) {
-                candidates.insert(t);
-              }
-              else {
-                Queue<Taxicab> temp = new Queue<Taxicab>();
-                Taxicab min = candidates.delMin();
-                while (candidates.min().equals(min)) {
-                  temp.enqueue(candidates.delMin());
+            for (int i = 1; i <= N; i++) {
+                for (int j = i + 1; j <= N; j++) {
+                    Taxicab t = new Taxicab(i, j);
+                    if (candidates.size() < N) {
+                        candidates.insert(t);
+                    } else {
+                        Queue<Taxicab> temp = new Queue<Taxicab>();
+                        Taxicab min = candidates.delMin();
+                        while (candidates.min().equals(min)) {
+                            temp.enqueue(candidates.delMin());
+                        }
+                        if (!t.equals(min)) {
+                            candidates.insert(t);
+                        } else {
+                            temp.enqueue(t);
+                        }
+                        if (!temp.isEmpty()) {
+                            for (Taxicab taxi: temp) {
+                                System.out.println(taxi);
+                            }
+                        System.out.println(min);
+                        }
+                    }
                 }
-                if (!t.equals(min)) {
-                  candidates.insert(t);
-                }
-                else {
-                  temp.enqueue(t);
-                }
-                if (!temp.isEmpty()) {
-                  for (Taxicab taxi: temp) {
-                    System.out.println(taxi);
-                  }
-                  System.out.println(min);
-                }
-              }
             }
-          }
         }  
+          
+        Algorithm works becuase it guarantees that all items in matrix are added and taken out of the minHeap in order. 
+        We always take the min item so far from the minHeap and add smallest larger item to the heap for every iteration. The heap contains N items only.  
