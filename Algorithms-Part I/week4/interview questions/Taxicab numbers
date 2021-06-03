@@ -5,7 +5,11 @@ Question: A taxicab number is an integer that can be expressed as the sum of two
           Version 1: Use time proportional to (n^2 log n) and space proportional to (n^2).
           Version 2: Use time proportional to (n^2 log n) and space proportional to (n).
           
-Answer: Imagine a 2-D matrix m[i][j] = i^3 + j^3. We don't have to create this matrix in memory. 
+Answer: Version 1: 
+        Form the sums (a^3 + b^3) and sort.
+        
+        Version 2: 
+        Imagine a 2-D matrix m[i][j] = i^3 + j^3. We don't have to create this matrix in memory. 
         Row items are in ascending order and column items are in ascending order too. 
         We could use a minHeap (minPQ) to store the diagonal first. 
         Then do the following steps until minHeap is empty:
