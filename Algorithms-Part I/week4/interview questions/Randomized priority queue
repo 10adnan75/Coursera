@@ -2,5 +2,8 @@ Question: Describe how to add the methods sample() and delRandom() to our binary
           The two methods return a key that is chosen uniformly at random among the remaining keys, with the latter method also removing that key. 
           The sample() method should take constant time; the delRandom() method should take logarithmic time. Do not worry about resizing the underlying array.
           
-Answer: sample(): sample from the underlying array.
-        delRandom(): swap with the last element, and then swim up or sink down, delete the last item(after swap).
+Answer: Randomly choose index i from 1 to N, where N is the size of the priority queue binary heap implementation. sample()'s value is a[i]. 
+        To delRandom(), we can exchange item of a[i] and a[N], then null out a[N], and sink a[i].
+
+        -> sample(): sample from the underlying array.
+        -> delRandom(): swap with the last element, and then swim up or sink down, delete the last item(after swap).
