@@ -28,7 +28,7 @@ Answer: Maintain two binary heaps, one that is max-oriented and one that is min-
           }
     
           public double findMedian() {
-            return minQ.size() == maxQ.size() ? (minQ.peek() +maxQ.peek()) / 2.0 : minQ.peek();
+            return minQ.size() == maxQ.size() ? (minQ.peek() + maxQ.peek()) / 2.0 : minQ.peek();
       `   }
         }
 
