@@ -1,0 +1,7 @@
+Question: Suppose that you are tracking n web sites and m users and you want to support the following API:
+            i. User visits a website.
+            ii. How many times has a given user visited a given site?
+
+          What data structure or data structures would you use?
+          
+Answer: 
