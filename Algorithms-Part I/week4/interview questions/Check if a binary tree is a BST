@@ -1,3 +1,17 @@
 Question: Given a binary tree where each Node contains a key, determine whether it is a binary search tree. Use extra space proportional to the height of the tree.
 
-Answer: 
+Answer: Designing a recursive function isBST(Node x,Key min,Key max) that determines whether x is the root of a binary search tree with all keys between min and max.
+
+        Algorithm:
+
+        public static boolean isBST(Node root) {
+            if (root == null) return false;
+            int min = Integer.MIN_VALUE, max = Integer.MAX_VALUE;
+            return isBST(root, min, max);
+        }
+
+        private static boolean isBST(Node root, int min, int max) {
+            if (root == null) return true;
+            boolean rootInRange = root.value > min && root.value < max;
+            return rootInRange && isBST(root.left, min, root.value) && isBST(root.right, root.value, max);
+        }
