@@ -1,3 +1,33 @@
 Question: Design an algorithm to perform an inorder traversal of a binary search tree using only a constant amount of extra space.
 
-Answer: 
+Answer: Use morris-traversal. It modifies the binary tree back when it is done.
+
+        Algorithm:
+        
+        // morris traversal
+        class Solution {
+            public List<Integer> inorderTraversal(TreeNode root) {
+                List<Integer> res = new ArrayList<>();
+                TreeNode p = root;
+                while (p != null) {
+                    if (p.left == null) {
+                        res.add(p.val);
+                        p = p.right;
+                    } else {
+                        TreeNode temp = p.left;
+                        while (temp.right != null && temp.right != p) {
+                            temp = temp.right;
+                        }
+                        if (temp.right == null) {
+                            temp.right = p;
+                            p = p.left;
+                        } else {
+                            res.add(p.val);
+                            temp.right = null;
+                            p = p.right;
+                        }   
+                    }
+                }
+                return res;
+            }
+        }
