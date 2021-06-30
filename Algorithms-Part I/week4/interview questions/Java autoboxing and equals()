@@ -3,4 +3,14 @@ Question: Consider two double values a and b and their corresponding Double valu
           Find values such that (a == b) is true but x.equals(y) is false.
           Find values such that (a == b) is false but x.equals(y) is true.
           
-Answer: 
+Answer: Java requires that equals() implements an equivalence relation.
+
+          double x1 = 0.0, y1 = -0.0;
+          Double a1 = x1, b1 = y1;
+          StdOut.println(x1 == y1); // true
+          StdOut.println(a1.equals(b1)); // false
+
+          double x2 = 0.0/0.0, y2 = 0.0/0.0;
+          Double a2 = x2, b2 = y2;
+          StdOut.println(x2 != y2); // true
+          StdOut.println(!a2.equals(b2)); // false
