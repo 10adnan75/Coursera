@@ -31,4 +31,3 @@ Answer: Maintain two binary heaps, one that is max-oriented and one that is min-
             return minQ.size() == maxQ.size() ? (minQ.peek() + maxQ.peek()) / 2.0 : minQ.peek();
       `   }
         }
-
