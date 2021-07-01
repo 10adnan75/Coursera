@@ -1,7 +1,5 @@
 # Programming for Everybody (Getting Started with Python)
 
----
-
 **About this Course**
 
 This course aims to teach everyone the basics of programming computers using Python. 
@@ -11,9 +9,15 @@ Once a student completes this course, they will be ready to take more advanced p
 
 ---
 
+## Issued on
+
+May 18, 2020
+
+---
+
 ## Certification
 
-<embed src="/Coursera Python1.pdf" type="application/pdf">
+![image](https://user-images.githubusercontent.com/52044177/124150147-ecfb7800-daae-11eb-836a-f825962ccc6a.png)
 
 ---
 
