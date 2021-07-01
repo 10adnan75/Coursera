@@ -10,13 +10,13 @@ This course will cover Chapters 6-10 of the textbook “Python for Everybody”.
 
 ## Issued on
 
-May 18, 2020
+May 19, 2020
 
 ---
 
 ## Certification
 
-![image](https://user-images.githubusercontent.com/52044177/124150147-ecfb7800-daae-11eb-836a-f825962ccc6a.png)
+![image](https://user-images.githubusercontent.com/52044177/124151032-c1c55880-daaf-11eb-8522-8fa38c0b26dd.png)
 
 ---
 
