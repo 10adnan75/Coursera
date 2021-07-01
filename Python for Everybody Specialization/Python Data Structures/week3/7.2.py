@@ -2,7 +2,7 @@
 
 """
 Created on Jun 8 12:29 PM IST
-@author: atse
+@author: 10adnan75
 """
 
 # Use the file name mbox-short.txt as the file name
@@ -16,4 +16,5 @@ total = 0
 for i in a:
     total = total + i
 mean = total/(len(a))    
+
 print("Average spam confidence:", mean)
