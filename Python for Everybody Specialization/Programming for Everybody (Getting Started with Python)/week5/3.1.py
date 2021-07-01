@@ -20,4 +20,4 @@ try:
 		print("%.2f" % (hour * rate))
 
 except:
-		print("Please, input a numeric!")
+	print("Please, input a numeric!")
