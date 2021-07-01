@@ -13,7 +13,7 @@ Once a student completes this course, they will be ready to take more advanced p
 
 ## Certification
 
-<image src="/Coursera Python1.pdf"/>
+<embed src="/Coursera Python1.pdf" type="application/pdf">
 
 ---
 
