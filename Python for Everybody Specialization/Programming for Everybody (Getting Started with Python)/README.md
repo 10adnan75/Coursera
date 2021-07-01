@@ -19,4 +19,4 @@ Once a student completes this course, they will be ready to take more advanced p
 
 ## Author
 
-Adnan M Shaikh
+**Adnan M Shaikh** 
