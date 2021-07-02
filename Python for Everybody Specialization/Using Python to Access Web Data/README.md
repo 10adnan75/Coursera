@@ -12,13 +12,13 @@ This course covers Python 3.
 
 ## Issued on
 
-Jun 14, 2020
+May 26, 2020
 
 ---
 
 ## Certification
 
-![image](https://user-images.githubusercontent.com/52044177/124303071-9f027500-db7f-11eb-8f6b-f4ad8e6d1895.png)
+![image](https://user-images.githubusercontent.com/52044177/124312768-800adf80-db8d-11eb-839a-3353dcf9e597.png)
 
 ---
 
