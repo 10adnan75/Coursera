@@ -2,6 +2,7 @@ CREATE TABLE Ages (
   name VARCHAR(128), 
   age INTEGER
 )
+
 DELETE FROM Ages;
 INSERT INTO Ages (name, age) VALUES ('John', 42);
 INSERT INTO Ages (name, age) VALUES ('Fred', 75);
