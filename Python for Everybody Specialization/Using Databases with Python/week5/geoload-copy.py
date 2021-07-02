@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+
+"""
+Created on Jun 29 12:29 PM IST
+@author: 10adnan75
+"""
+
 import urllib.request, urllib.parse, urllib.error
 import http
 import sqlite3
