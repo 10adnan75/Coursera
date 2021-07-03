@@ -17,8 +17,7 @@ Jun 14, 2020
 
 ## Certification
 
-![image](https://user-images.githubusercontent.com/52044177/124303071-9f027500-db7f-11eb-8f6b-f4ad8e6d1895.png)
-
+![image](https://user-images.githubusercontent.com/52044177/124357373-c36e5800-dc38-11eb-8497-7e95e33ea226.png)
 ---
 
 ## Author
