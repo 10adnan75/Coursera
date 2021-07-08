@@ -14,13 +14,13 @@ The program you will build throughout this course allows its user to manage, man
 
 ## Issued on
 
-Sep 10, 2020
+Sep 29, 2020
 
 ---
 
 ## Certification
 
-![image](https://user-images.githubusercontent.com/52044177/124890192-6d613200-dff5-11eb-8bc0-192dd421f80f.png)
+![image](https://user-images.githubusercontent.com/52044177/124921939-96de8580-e016-11eb-87af-f3afc764d905.png)
 
 ---
 
