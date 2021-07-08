@@ -28,13 +28,13 @@ In this Specialization, you will demonstrate your new proficiency in Java and ob
 
 ## Certification
 
-![image](https://user-images.githubusercontent.com/52044177/124293223-0adee080-db74-11eb-9249-3281feab237d.png)
+![image](https://user-images.githubusercontent.com/52044177/124887170-8e745380-dff2-11eb-836d-696efc0a74ac.png)
 
 ---
 
 ## Issued on
 
-June 14, 2020
+September 29, 2020
 
 ---
 
