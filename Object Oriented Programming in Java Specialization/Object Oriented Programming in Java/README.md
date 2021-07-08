@@ -16,13 +16,13 @@ We’re excited you’re here learning with us. Let’s get started!
 
 ## Issued on
 
-Jul 22, 2020
+Sep 10, 2020
 
 ---
 
 ## Certification
 
-![image](https://user-images.githubusercontent.com/52044177/124888131-718c5000-dff3-11eb-94e4-e828cb7a3843.png)
+![image](https://user-images.githubusercontent.com/52044177/124890192-6d613200-dff5-11eb-8bc0-192dd421f80f.png)
 
 ---
 
