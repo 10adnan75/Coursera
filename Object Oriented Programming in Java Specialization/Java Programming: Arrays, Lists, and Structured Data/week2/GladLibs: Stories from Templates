@@ -1,0 +1,10 @@
+After completing this module, you will be able: 
+  (1) to program a word frequency counter to analyze any input text file, 
+  (2) to select and substitute words from a list into a document template using both ArrayList and HashMap, 
+  (3) to create new lists to use in templates, 
+  (4) to recognize brittle code, and 
+  (5) to improve code with flexible, object-oriented design. 
+  
+You will gain these skills in the framework of developing a randomly generated story that we call GladLibs. 
+You may discover that bald lions change peoples’ lives, or that fluffy dinosaurs get things done in a jiffy. 
+We hope you have fun developing your Java skills this week!
