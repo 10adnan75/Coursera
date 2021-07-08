@@ -1,0 +1,8 @@
+In this module, you will learn to write and run your first Java programs, including one program that prints “Hello!” in various countries’ languages and another where you will analyze the perimeters and other information of shapes. 
+To accomplish these tasks, you will learn the basics of Java syntax and how to design stepwise solutions with programs. 
+By the end of this module, you will be able to: 
+  (1) Download and run BlueJ, the Java programming environment for this course; 
+  (2) Access the documentation for the Java libraries specially designed for this course; 
+  (3) Edit, compile, and run a Java program; 
+  (4) Construct methods, variables, if else statements, and for each loops in Java; and 
+  (5) Use Iterables (like DirectoryResource) to run a program that iterates over multiples lines in a document or webpage or multiple files in a directory.
