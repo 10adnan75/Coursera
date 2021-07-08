@@ -16,13 +16,13 @@ After completing this course, you will be able to:
 
 ## Issued on
 
-Jul 5, 2020
+Jul 22, 2020
 
 ---
 
 ## Certification
 
-![image](https://user-images.githubusercontent.com/52044177/124885320-c7132d80-dff0-11eb-8f92-9466f0dc26ba.png)
+![image](https://user-images.githubusercontent.com/52044177/124888131-718c5000-dff3-11eb-94e4-e828cb7a3843.png)
 
 ---
 
