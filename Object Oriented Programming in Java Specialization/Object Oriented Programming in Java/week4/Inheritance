@@ -1,0 +1,6 @@
+Now that you’re in full swing with the project, let’s take a closer look at some concepts that you have already been using in your code. 
+Specifically, the keyword “extends”. What exactly does it mean that your program “extends PApplet”? 
+To answer this question we’ll need to dive into the details of how Java allows for Class Hierarchies through Inheritance and Polymorphism. 
+These fundamental and powerful concepts will serve you well in the future! We’ll use these ideas to allow for displaying markers differently. 
+If you feel you’re already comfortable with Inheritance and Polymorphism, feel free to dive straight into the project (programming assignment) for this week.
+As you work with the project, feel free to have some fun and introduce new levels of class hierarchies for improved functionality.
