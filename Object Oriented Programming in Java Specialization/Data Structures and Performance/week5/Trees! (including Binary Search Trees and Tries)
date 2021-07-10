@@ -1,0 +1,5 @@
+Welcome to week 5! We know you've been working hard. We hope you tried that optional Markov Text Generation programming assignment last week, but if not, no worries. 
+You can always go back and do it later (spoiler alert: it's pretty amazing that such a simple algorithm can produce such realistic text). 
+This week there's more fun (and hard work) as we learn about trees. Trees rely on the same linked structure idea as Linked Lists, only they're MUCH faster (usually...). 
+In the project this week you'll add auto-complete to your text editor. 
+Believe us when we say it's so cool when you get it working! You'll see... and we bet you can't wait for the programming assignment now. :)
