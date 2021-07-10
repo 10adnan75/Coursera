@@ -1,0 +1,8 @@
+- Calculate the big-O class of a code snippet
+- Combine the runtimes of smaller code snippets to analyze the performance of more complicated code
+- Compute the big-O class of code with nested loops
+- Categorize big-O classes according to rate of growth
+- Recognize and avoid some common pitfalls in asymptotic analysis
+- Use Java timing libraries to measure execution time
+- Use runtimes from a real system to reason about performance
+- Select the appropriate Big-O classes corresponding to graphs of empirical data.
