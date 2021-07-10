@@ -1,0 +1,13 @@
+- Describe applications of the tree data structure
+- Identify examples of the tree data structure
+- Write a TreeNode class
+- Write a level-order traversal
+- Define a Binary Search Tree
+- Identify valid Binary Search Trees
+- Demonstrate inserting an item into a Binary Search Tree
+- Explain the running time performance to find an item in a BST
+- Compare the performance of linked lists and BSTs
+- Explain what a trie data structure is
+- Describe the algorithm for finding keys in and adding keys to a trie
+- Compare the time to find a key in a BST to a trie
+- Build a trie data structure in Java
