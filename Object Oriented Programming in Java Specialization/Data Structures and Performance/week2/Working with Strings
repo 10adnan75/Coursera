@@ -1,0 +1,3 @@
+This week we're going to dive into the course programming project. 
+In the first lesson you'll learn about Strings and Regular Expressions, and in the programming assignment this week you'll apply that knowledge to adding functionality to your text editor so that it can measure the "readability" of text by calculating something called the "Flesch Readability Score". 
+This course is focused on building code that not only does interesting things, but also finishes them quickly. So, let's get started building some code!
