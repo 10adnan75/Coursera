@@ -1,0 +1,4 @@
+This week we'll start talking about some of the basic concepts that one expects to find in a data structures course: the idea of data abstraction, and a data structure called a Linked List. 
+Even though Linked Lists are not very efficient structures (for the most part), they do hit home the idea of "linking" pieces of data together in your computer's memory, rather than storing the data in one contiguous region. 
+This linking idea will be central to many of the more advanced data structures, namely trees and graphs, that are coming up later in this course and in the next course in this specialization. 
+In this module you'll also learn tools and procedures for unit testing your code, which is a way to make sure that what you've written is correct, and a staple practice of any sophisticated software developer.
