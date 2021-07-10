@@ -1,0 +1,3 @@
+Welcome to week 3! The text-editor application you worked with last week does something, but it doesn't do it particularly fast. This week we'll start talking about efficiency. 
+We'll introduce the concept of "Big-O" notation, which sounds a little silly, but is really a powerful (and extremely common) way of analyzing a program's efficiency, independent of the system that it's running on and the exact details of how it's implemented. 
+Then we'll go the other direction and dive into the details, talking about how to measure the actual running time of a piece of code to get an idea of how it really performs in practice.
