@@ -13,7 +13,7 @@ We will talk about methods that are commonly used, such as Continuous Integratio
 
 ## Issued on
 
-Jul 23, 2021
+Jul 24, 2021
 
 ---
 
