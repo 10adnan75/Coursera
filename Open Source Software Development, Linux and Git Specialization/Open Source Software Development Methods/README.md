@@ -13,13 +13,13 @@ We will talk about methods that are commonly used, such as Continuous Integratio
 
 ## Issued on
 
-Jul 24, 2021
+Jul 25, 2021
 
 ---
 
 ## Certification
 
-![]()
+![image](https://user-images.githubusercontent.com/52044177/126910330-415e511e-2698-4758-bdb0-5165dd24f9b8.png)
 
 ---
 
