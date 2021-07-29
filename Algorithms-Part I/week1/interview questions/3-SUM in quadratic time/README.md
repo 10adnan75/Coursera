@@ -6,8 +6,9 @@ You may assume that you can sort the n integers in time proportional to n^2 or b
 **Answer:** 
 
 First, sort the array using mergesort algorithm in the time proportional to nlogn. 
-        
-        Algorithm:
+
+Algorithm:
+
         for i=0 to array.length-2 do
           j=i+1
           k=array.length-1
