@@ -8,4 +8,12 @@ Use java.util.ArrayList and iterate through array a[] by comparing a[i] with eve
 
 Algorithm:
 
-[Intersection.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/Intersection.java)
+        int count = 0;
+        for (int i=0; i<n; i++) {
+            for (int j=0; j<n; j++) {
+                if (A.get(i).getX()==B.get(j).getX() && A.get(i).getY()==B.get(j).getY()) count++;
+            }
+        }
+        System.out.println("A intersection B: " + count);
+
+Reference: [Intersection.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/Intersection.java)
