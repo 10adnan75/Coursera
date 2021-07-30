@@ -16,4 +16,4 @@ Algorithm:
         }
         System.out.println("A intersection B: " + count);
 
-Reference: [Intersection.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/Intersection.java)
+Brute force approach: [Intersection.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/Intersection.java)
