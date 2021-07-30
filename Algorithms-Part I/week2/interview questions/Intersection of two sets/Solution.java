@@ -61,14 +61,14 @@ class Solution {
         Point[] b = new Point[n];
         System.out.println("Input values for Set A and Set B: ");
         for (int id=0; id<n; id++) {
-            System.out.print("A.x" + id+1 + ": ");
+            System.out.print("A.x" + (id+1) + ": ");
             int ax = input.nextInt();
-            System.out.print("A.y" + id+1 + ": ");
+            System.out.print("A.y" + (id+1) + ": ");
             int ay = input.nextInt();
             a[id] = new Point(ax, ay);
-            System.out.print("B.x" + id+1 + ": ");
+            System.out.print("B.x" + (id+1) + ": ");
             int bx = input.nextInt();
-            System.out.print("B.y" + id+1 + ": ");
+            System.out.print("B.y" + (id+1) + ": ");
             int by = input.nextInt();
             b[id] = new Point(bx, by);
         }
