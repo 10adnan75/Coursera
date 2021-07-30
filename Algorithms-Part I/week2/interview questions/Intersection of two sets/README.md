@@ -8,23 +8,19 @@ Sorting both arrays would suffice the requirement of time complexity.
 
 Algorithm:
 
-    public static int countIntersection(Point[] a, Point[] b) {
-        int i = 0;
-        int j = 0;
-        int count = 0;
-
-        while (i < a.length && j < b.length) {
-            if (a[i].compareTo(b[j]) == 0) {
-                count++;
-                i++;
-                j++;
-            } else if (a[i].compareTo(b[j]) < 0) {
-                i++;
-            } else {
-                j++;
-            }
-        }
-        return count;
-    }               
+    i=0
+    j=0
+    while i<a.length and j<b.length do
+      if a[i]==b[j]  
+        count+=1
+        i+=1
+        j+=1
+      else if a[i]<b[j]
+        i+=1
+      else 
+        j+=1
+      end if
+    end while
+    return count
 
 Brute force approach: [Intersection.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/Intersection.java)
