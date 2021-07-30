@@ -63,8 +63,7 @@ class Solution {
     }
 }
 
-/*
-        How many points?: 5
+/*      How many points?: 5
         Input values for Set A and Set B: 
         A.x1: 0
         A.y1: 1
