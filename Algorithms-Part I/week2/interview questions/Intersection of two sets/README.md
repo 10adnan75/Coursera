@@ -4,16 +4,27 @@ Given two arrays a[] and b[], each containing n distinct 2D points in the plane,
           
 **Answer:**
 
-Use java.util.ArrayList and iterate through array a[] by comparing a[i] with every b[i].
+Sorting both arrays would suffice the requirement of time complexity. 
 
 Algorithm:
 
+    public static int countIntersection(Point[] a, Point[] b) {
+        int i = 0;
+        int j = 0;
         int count = 0;
-        for (int i=0; i<n; i++) {
-            for (int j=0; j<n; j++) {
-                if (A.get(i).getX()==B.get(j).getX() && A.get(i).getY()==B.get(j).getY()) count++;
+
+        while (i < a.length && j < b.length) {
+            if (a[i].compareTo(b[j]) == 0) {
+                count++;
+                i++;
+                j++;
+            } else if (a[i].compareTo(b[j]) < 0) {
+                i++;
+            } else {
+                j++;
             }
         }
-        System.out.println("A intersection B: " + count);
+        return count;
+    }               
 
 Brute force approach: [Intersection.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/Intersection.java)
