@@ -24,11 +24,11 @@ Algorithm:
     lo = 0
     hi = pebbles.length - 1
     while lo <= hi do
-        if pebbles[lo] < white do
+        if pebbles[lo] < white 
             swap(lo, idx)
             lo += 1
             idx += 1
-        else if pebbles[lo] > white do
+        else if pebbles[lo] > white 
             swap(lo, hi)
             hi -= 1
         else
