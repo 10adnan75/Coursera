@@ -19,7 +19,26 @@ The performance requirements are as follows:
 Use algorithm for 3-way-partitioning.
 
 Algorithm:
+    
+    idx=0
+    lo=0
+    hi=pebbles.length-1
+    while lo<=hi do:
+      if pebbles[lo]  
+            int runner = 0;
+            int b = pebbles.length - 1;
 
-    to add
+            while (runner <= b) {
+                Pebble color = color(runner);
+                int cmp = compare(color);
+                if (cmp < 0) {
+                    swap(runner++, r++);
+                } else if (cmp > 0) {
+                    swap(runner, b--);
+                } else {
+                    runner++;
+                }
+            }
+        }
         
 Reference: [sort_array_0_1_2.cpp](https://github.com/10adnan75/DSA/blob/main/sort_array_0_1_2.cpp)
