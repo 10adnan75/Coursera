@@ -24,21 +24,16 @@ Algorithm:
     lo=0
     hi=pebbles.length-1
     while lo<=hi do:
-      if pebbles[lo]  
-            int runner = 0;
-            int b = pebbles.length - 1;
-
-            while (runner <= b) {
-                Pebble color = color(runner);
-                int cmp = compare(color);
-                if (cmp < 0) {
-                    swap(runner++, r++);
-                } else if (cmp > 0) {
-                    swap(runner, b--);
-                } else {
-                    runner++;
-                }
-            }
-        }
+      if pebbles[lo]<white:
+        swap(lo,idx)
+        lo+=1
+        idx+=1
+      else if pebbles[lo]>white:
+        swap(lo,hi)
+        hi-=1
+      else:
+        lo+=1
+      end if
+    end while
         
 Reference: [sort_array_0_1_2.cpp](https://github.com/10adnan75/DSA/blob/main/sort_array_0_1_2.cpp)
