@@ -20,6 +20,7 @@ Use algorithm for 3-way-partitioning.
 
 Algorithm:
     
+    white = Pebble.white
     idx = 0
     lo = 0
     hi = pebbles.length - 1
