@@ -37,4 +37,7 @@ Algorithm:
         end if
     end while
         
-Reference: [sort_array_0_1_2.cpp](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/sort_array_0_1_2.cpp)
+References: 
+
+* [DutchNationalFlag.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/DutchNationalFlag.java)
+* [sort_array_0_1_2.cpp](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/sort_array_0_1_2.cpp)
