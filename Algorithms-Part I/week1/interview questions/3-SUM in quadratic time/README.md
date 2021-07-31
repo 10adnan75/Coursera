@@ -25,6 +25,7 @@ Algorithm:
         end while
     end for
 
-Reference: [ThreeSumFast.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/ThreeSumFast.java)
+References: 
 
-[two_pointers_3sum.cpp](https://github.com/10adnan75/DSA/blob/main/Algorithms/Searching/Binary%20search/two_pointers_3sum.cpp)
+* [ThreeSumFast.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/ThreeSumFast.java)           
+* [two_pointers_3sum.cpp](https://github.com/10adnan75/DSA/blob/main/Algorithms/Searching/Binary%20search/two_pointers_3sum.cpp)
