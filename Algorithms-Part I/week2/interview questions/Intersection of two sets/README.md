@@ -8,19 +8,18 @@ Sorting both arrays would suffice the requirement of time complexity.
 
 Algorithm:
 
-    i=0
-    j=0
-    while i<a.length and j<b.length do
-      if a[i]==b[j]  
-        count+=1
-        i+=1
-        j+=1
-      else if a[i]<b[j]
-        i+=1
-      else 
-        j+=1
-      end if
+    i = 0
+    j = 0
+    while i < a.length and j < b.length do
+        if a[i] == b[j]  
+            count += 1
+            i += 1
+            j += 1
+        else if a[i] < b[j]
+            i += 1
+        else 
+            j += 1
+        end if
     end while
-    return count
 
 Brute force approach: [Intersection.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/Intersection.java)
