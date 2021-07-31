@@ -24,3 +24,5 @@ Algorithm:
             end if
         end while
     end for
+
+Reference: [ThreeSumFast.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/ThreeSumFast.java)
