@@ -20,20 +20,20 @@ Use algorithm for 3-way-partitioning.
 
 Algorithm:
     
-    idx=0
-    lo=0
-    hi=pebbles.length-1
-    while lo<=hi do:
-      if pebbles[lo]<white:
-        swap(lo,idx)
-        lo+=1
-        idx+=1
-      else if pebbles[lo]>white:
-        swap(lo,hi)
-        hi-=1
-      else:
-        lo+=1
-      end if
+    idx = 0
+    lo = 0
+    hi = pebbles.length - 1
+    while lo <= hi do
+        if pebbles[lo] < white do
+            swap(lo, idx)
+            lo += 1
+            idx += 1
+        else if pebbles[lo] > white do
+            swap(lo, hi)
+            hi -= 1
+        else
+            lo += 1
+        end if
     end while
         
 Reference: [sort_array_0_1_2.cpp](https://github.com/10adnan75/DSA/blob/main/sort_array_0_1_2.cpp)
