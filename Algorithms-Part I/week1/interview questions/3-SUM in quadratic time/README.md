@@ -9,18 +9,18 @@ First, sort the array using mergesort algorithm in the time proportional to nlog
 
 Algorithm:
 
-    for i=0 to array.length-2 do
-      j = i+1
-      k = array.length-1
-      while j<k do
-        sum = array[i]+array[j]+array[k]
-        if sum=0 
-          print sum
-        end if
-        if sum>=0
-          k-=1
-        else 
-          j+=1
-        end if
-      end while
+    for i = 0 to array.length - 2 do
+        j = i + 1
+        k = array.length - 1
+        while j < k do
+            sum = array[i] + array[j] + array[k]
+            if sum = 0 
+                print sum
+            end if
+            if sum >= 0
+                k -= 1
+            else 
+                j += 1
+            end if
+        end while
     end for
