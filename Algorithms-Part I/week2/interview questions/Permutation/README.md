@@ -9,7 +9,14 @@ Sort both arrays and iterate through the elements to check for equality which wo
 
 Algorithm:
 
-    for i = 0 to i = a.length - 1 do
+    if a.length != b.length
+        return false
+    end if
+    for i = 0 to size - 1 do
         if a[i] != b[i]
             return false
+        end if
+    end for
     return true
+
+Reference: []()
