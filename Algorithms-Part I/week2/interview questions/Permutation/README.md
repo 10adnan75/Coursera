@@ -19,4 +19,4 @@ Algorithm:
     end for
     return true
 
-Reference: []()
+Reference: [Permutations.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/Permutations.java)
