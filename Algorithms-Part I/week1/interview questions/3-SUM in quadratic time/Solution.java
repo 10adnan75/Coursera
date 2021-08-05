@@ -14,7 +14,9 @@ class Solution {
                     right--;
                 } else {
                     System.out.println(a[left] + " + " + a[mid] + " + " + a[right] + " = " + value);
-                    return true;
+                    mid++;
+                    right--;
+                    //return true;
                 }
             }
         }
@@ -36,5 +38,11 @@ class Solution {
 }
 /*      OUTPUT:
         -2 + -1 + 1 = -2
-        true
+        -2 + 0 + 1 = -1
+        -1 + 0 + 2 = 1
+        -2 + -1 + 5 = 2
+        -2 + -1 + 8 = 5
+        1 + 2 + 5 = 8
+        false
  */
+    
