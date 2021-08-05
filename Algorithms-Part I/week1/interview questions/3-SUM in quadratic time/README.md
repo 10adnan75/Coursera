@@ -14,10 +14,10 @@ Algorithm:
         k = array.length - 1
         while j < k do
             sum = array[i] + array[j] + array[k]
-            if sum = 0 
+            if sum = key 
                 print sum
             end if
-            if sum >= 0
+            if sum >= key
                 k -= 1
             else 
                 j += 1
