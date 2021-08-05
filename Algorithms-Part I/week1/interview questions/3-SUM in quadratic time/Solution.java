@@ -1,40 +1,40 @@
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class Solution {
     
-    public static void threeSum(int[] a) {
-        Arrays.sort(a);
-        for (int i=0; i<a.length-2; i++) {
-            int j = i+1;
-            int k = a.length-1;
-            while (j < k) {
-                int sum = a[i] + a[j] + a[k];
-                if (sum == 0) System.out.println(a[i] + " + " + a[j] + " + " + a[k] + " = " + sum);
-                if (sum >= 0) {
-                    k--;
+    private static boolean sum(int[] a, int key) {
+        int value = a[key];
+        for (int left=0; left<a.length-3; left++) {
+            int mid = left+1;
+            int right = a.length-1;
+            while (mid < right) {
+                if (mid == key || a[left] + a[mid] + a[right] < value) {
+                    mid++;
+                } else if (right == key || a[left] + a[mid] + a[right] > value) {
+                    right--;
                 } else {
-                    j++;
+                    System.out.println(a[left] + " + " + a[mid] + " + " + a[right] + " = " + value);
+                    return true;
                 }
             }
         }
+        return false;
+    }
+
+    public static boolean threeSum(int[] a) {
+        Arrays.sort(a);
+        for (int i = 0; i < a.length; i++) {
+            if (sum(a, i)) return true;
+        }
+        return false;
     }
     
-    public static void main (String[] args) throws java.lang.Exception {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter size: "); int size = input.nextInt();
-        int[] a = new int[size];
-        System.out.print("Enter keys: "); for (int i=0; i<size; i++) a[i] = input.nextInt();
-        System.out.print("Solution:\n");
-        threeSum(a);
+    public static void main (String[] args) {
+        int[] a = {2, 1, -1, 5, 8, 0, -2};
+        System.out.println(threeSum(a));
     }
 }
-
 /*      OUTPUT:
-        Enter size: 5
-        Enter keys: 1 2 -1 0 -2
-        Solution:
-        -2 + 0 + 2 = 0
-        -1 + 0 + 1 = 0
-*/
+        -2 + -1 + 1 = -2
+        true
+ */
