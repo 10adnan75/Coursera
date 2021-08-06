@@ -1,8 +1,6 @@
 **Question:**
 
-Given an array of n buckets, each containing a red, white, or blue pebble, sort them by color. 
-
-The allowed operations are:
+Given an array of n buckets, each containing a red, white, or blue pebble, sort them by color. The allowed operations are:
 
     swap(i,j): swap the pebble in bucket i with the pebble in bucket j.
     
