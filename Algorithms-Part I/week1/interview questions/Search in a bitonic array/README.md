@@ -16,4 +16,4 @@ Use three binary searches.
     
 Algorithm:
 
-    here 
+    here algo
