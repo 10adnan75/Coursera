@@ -13,7 +13,9 @@ The performance requirements are as follows:
     At most n calls to color().
     At most n calls to swap().
     Constant extra space.
-          
+
+---
+
 **Answer:**
 
 Use algorithm for 3-way-partitioning.
