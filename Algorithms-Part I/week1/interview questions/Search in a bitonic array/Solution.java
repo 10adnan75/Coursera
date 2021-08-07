@@ -64,17 +64,17 @@ class Solution {
     }
     
     
-	public static void main(String[] args) throws java.lang.Exception {
-		int[] a = {10, 20, 30, 40, 50, 5, 4, 3, 2, 1};
-		int[] keys = {7, 10, 100, 99, 2, 5, 786};
-		for (int key : keys) {
-		    if (search(a, key)) {
-		        System.out.println(key + " is present in array!");
-		    } else {
-		        System.out.println(key + " is absent in array!");
-		    }
-		}
-	}
+    public static void main(String[] args) throws java.lang.Exception {
+        int[] a = {10, 20, 30, 40, 50, 5, 4, 3, 2, 1};
+        int[] keys = {7, 10, 100, 99, 2, 5, 786};
+        for (int key : keys) {
+            if (search(a, key)) {
+                System.out.println(key + " is present in array!");
+            } else {
+                System.out.println(key + " is absent in array!");
+            }
+        }
+    }
 }
 
 /*      OUTPUT:
