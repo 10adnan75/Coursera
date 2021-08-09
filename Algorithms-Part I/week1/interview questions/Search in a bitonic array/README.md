@@ -16,4 +16,32 @@ Use three binary searches.
     
 Algorithm:
 
-    here algo
+    left = 0 
+    right = a.length-1
+    while left < right do
+        mid = left + (right - left) / 2
+        if a[mid] < key
+            if a[mid] < a[mid+1] 
+                left = mid + 1
+            else 
+                right = mid - 1
+            end if
+        else if a[mid] > key 
+            if a[mid] < a[mid+1] 
+                if binSearch(a, 0, mid-1, key) = true
+                    return true
+                else 
+                    left = mid + 1
+                end if
+            else 
+                if binSearch(a, mid+1, a.length-1, key) = true
+                    return true
+                else 
+                    right = mid - 1
+                end if
+            end if
+        else 
+            return true
+        end if
+    end while
+    return false
