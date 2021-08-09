@@ -11,3 +11,34 @@ Design a generalized queue data type that supports all of the following operatio
 ---
 
 **Answer:**
+
+Best data structure to use: [RedBlackBST](https://github.com/10adnan75/DSA/blob/main/Data%20Structures/Trees/RedBlackBST.java)
+
+Generalized queue API:
+
+    class GeneralizedQueue<Item> {
+        private int index;
+        private final RedBlackBST<Integer, Item> store;
+
+        GeneralizedQueue() {
+            index = 0;
+            store = new RedBlackBST<>();
+        }
+
+        public void append(Item item) {
+            store.put(index++, item);
+        }
+
+        public void removeFront() {
+            store.deleteMin();
+        }
+
+        public Item get(int i) {
+            int key = store.rank(i);
+            return store.get(key);
+        }
+
+        public void delete(int i) {
+            store.delete(store.rank(i));
+        }
+    }
