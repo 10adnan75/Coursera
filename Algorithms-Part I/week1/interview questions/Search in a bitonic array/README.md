@@ -45,3 +45,7 @@ Algorithm:
         end if
     end while
     return false
+
+Reference:
+
++ [SearchBitonicArray](https://github.com/10adnan75/DSA/blob/main/Algorithms/Searching/Binary%20search/SearchBitonicArray.java)
