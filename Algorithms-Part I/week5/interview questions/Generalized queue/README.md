@@ -42,3 +42,8 @@ Generalized queue API:
             store.delete(store.rank(i));
         }
     }
+
+References:
+
++ [QueueArray.java](https://github.com/10adnan75/DSA/blob/main/Data%20Structures/Queues/QueueArray.java)
++ [QueueLL.java](https://github.com/10adnan75/DSA/blob/main/Data%20Structures/Queues/QueueLL.java)
