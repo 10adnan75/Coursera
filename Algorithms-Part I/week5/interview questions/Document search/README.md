@@ -5,3 +5,9 @@ Design an algorithm that takes a sequence of n document words and a sequence of 
 ---
 
 **Answer:**
+
+Queue data structure
+
+Algorithm:
+
+    here
