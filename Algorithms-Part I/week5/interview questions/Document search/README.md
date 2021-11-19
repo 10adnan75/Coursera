@@ -6,7 +6,7 @@ Design an algorithm that takes a sequence of n document words and a sequence of 
 
 **Answer:**
 
-Best data structure to use: [Queue](https://github.com/10adnan75/DSA/blob/main/Data%20Structures/Trees/RedBlackBST.java)
+Best data structure to use: [Queue](https://github.com/10adnan75/DSA/blob/main/Data%20Structures/Queues/QueueLL.java)
 
 Algorithm:
 
