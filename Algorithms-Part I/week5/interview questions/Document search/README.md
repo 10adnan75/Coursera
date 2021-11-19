@@ -46,3 +46,5 @@ Algorithm:
 References:
 
 + [ST.java](https://github.com/10adnan75/DSA/blob/main/Data%20Structures/Symbol%20tables/ST.java)
++ [Document](https://github.com/10adnan75/Coursera/blob/main/Algorithms-Part%20I/week5/interview%20questions/Document%20search/document.txt)
++ [Query](https://github.com/10adnan75/Coursera/blob/main/Algorithms-Part%20I/week5/interview%20questions/Document%20search/query.txt)
