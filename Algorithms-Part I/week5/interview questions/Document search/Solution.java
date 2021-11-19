@@ -1,12 +1,16 @@
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.Queue;
 import edu.princeton.cs.algs4.ST;
-import edu.princeton.cs.algs4.StdIn;
 
 public class Solution {
     public static void main(String[] args) {
-        In input = new In("");
-        String[] words = input.readAllStrings();
+        System.out.println("Reading document.....");
+        In input1 = new In("document.txt");
+        String[] words = input1.readAllStrings();
+        for (String word : words) {
+            System.out.print(word + " ");
+        }
+        System.out.println();
 
         ST<String, Queue<Integer>> wIndices = new ST<>();
 
@@ -23,7 +27,15 @@ public class Solution {
         }
         int bestLo = -1;
         int bestHi = words.length;
-        String[] query = StdIn.readAllStrings();
+
+        System.out.println("Reading query.....");
+        In input2 = new In("query.txt");
+        String[] query = input2.readAllStrings();
+        for (String q : query) {
+            System.out.print(q + " ");
+        }
+        System.out.println();
+
         Queue<Integer>[] queues = (Queue<Integer>[]) new Queue[query.length];
 
         for (int i = 0; i < query.length; i++) {
@@ -59,6 +71,13 @@ public class Solution {
         } else {
             System.out.println("Not found!");
         }
-
     }
 }
+
+/*      OUTPUT:
+        Reading document.....
+        Adnan M Shaikh
+        Reading query.....
+        Adnan M Shaikh
+        Shortest interval found: 2
+ */
