@@ -3,11 +3,18 @@
 
 **About this Course**
 
-In this course, we will define what open source software is, we will go over the history of open source software and what benefits it has provided to the world’s technology infrastructure over the decades. 
-The course aims to teach you how to work in open source projects productively and gain a lot of benefits from it, and really understand what the advantages are. 
-You will learn about collaboration best practices, and how to encourage diversity in open source projects. 
-We will discuss the different licensing models that are available, as this will help you decide what the best license is for your project. 
-We will talk about methods that are commonly used, such as Continuous Integration, and use of GitHub and other hosting providers as a central meeting place for open source projects, and we will provide some examples of successful open source projects.
+In course 1 we talked about open source software and the motivation and methods of using it. In course 2, we will introduce you to Linux systems, and help you feel comfortable working at the command line:
+
+- What Linux is
+- Linux history
+- How to separate the kernel from the entire operating system
+- Making contributions to the kernel
+- Graphical system, and how it works
+- Working at the command line
+- Filesystem layout, partitions
+- Monitoring utilities
+
+You will learn what it’s like to work on Linux system, and get a good understanding of the essential skills you need when you work on a daily basis with Linux systems.
 
 ---
 
