@@ -1,3 +1,5 @@
+**Learning Objectives**
+
 - Explain the difference between the Linux kernel and the full Operating System (OS)
 - Summarize the history of Linux and its relationship to UNIX
 - Describe the role of Linux distributions and the Linux Standard Base (LSB)
