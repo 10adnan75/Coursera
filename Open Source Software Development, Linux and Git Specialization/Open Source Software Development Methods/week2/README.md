@@ -1,3 +1,5 @@
+**Learning Objectives**
+
 - Discuss how to work effectively in an OSS community
 - Explain Continuous Integration, Continuous Delivery and Continuous Deployment, and how they are interrelated
 - Compare costs and benefits of using Continuous Integration
