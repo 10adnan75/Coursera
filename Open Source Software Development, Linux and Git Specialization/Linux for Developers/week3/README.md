@@ -1,3 +1,5 @@
+**Learning Objectives**
+
 - Understand how the system boots, the role of GRUB and the contents of the /boot directory
 - Discuss the next steps of launching essential functions using systemd and its predecessors, SysVinit and Upstart
 - Kill the graphical desktop interface and enter a pure text-based terminal
