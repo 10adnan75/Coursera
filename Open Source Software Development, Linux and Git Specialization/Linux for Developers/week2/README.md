@@ -1,3 +1,5 @@
+**Learning Objectives**
+
 - List the main text editors available on virtually any Linux-based system, concentrating on vi, emcas, nano and gedit
 - Understand how to use vi and emacs editors and how to create files with just cat and echo and no editor
 - Discuss how the operating system employs command shells, the choices available, and how bash is initialized
