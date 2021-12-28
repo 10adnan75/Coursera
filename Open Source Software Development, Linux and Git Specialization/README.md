@@ -22,7 +22,7 @@ Upon completion of this Specialization, you will receive a certificate from Cour
 
 ## Certification
 
-![image](https://user-images.githubusercontent.com/52044177/124293223-0adee080-db74-11eb-9249-3281feab237d.png)
+![image](https://user-images.githubusercontent.com/52044177/147587524-50c9a3fb-26f1-420d-ba6c-3cb2d1819d76.png)
 
 ---
 
