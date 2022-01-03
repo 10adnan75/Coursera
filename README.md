@@ -2,14 +2,14 @@
 
 ---
 
-### Algorithms I
+#### Algorithms I
 
-### Algorithms II
+#### Algorithms II
 
-### Object Oriented Programming in Java
+#### Object Oriented Programming in Java
 
-### Python for Everybody
+#### Python for Everybody
 
-### Open Source Software Development, Linux and Git
+#### Open Source Software Development, Linux and Git
 
 
