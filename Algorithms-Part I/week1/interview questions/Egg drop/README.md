@@ -28,9 +28,9 @@ Algorithm:
 
 Version 0: sequential search.
 
-    int T = 0;
+    let T = 0;
     for i = 0 to n do:
-        if Floors[i] = true:
+        if Floors[i] = true then:
             T = i;
             break;
         end if
@@ -39,7 +39,21 @@ Version 0: sequential search.
     
 Version 1: binary search.
 
-    add
+    let lo = 0, hi = n-1, T = n
+    while lo < hi do:
+        mid = (lo + hi) / 2
+        if Floors[mid] = true then:
+            hi = mid - 1
+            if mid < T then:
+                T = mid
+            else:
+                return T
+            end if
+        else:
+            lo = mid + 1
+        end if        
+    end while        
+    return T + 1
     
 Version 2: find an interval containing T of size ≤2T, then do binary search.
 
