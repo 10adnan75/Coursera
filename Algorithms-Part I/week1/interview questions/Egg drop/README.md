@@ -24,11 +24,34 @@ Version 3: _Test floors in increments of sqrt(N) starting from floor 0. When the
 
 Version 4: _We drop the egg at floor 1, 3(1+2), 6(1+2+3), 10(1+2+3+4), so on and so forth. Note that 1+2+3+4+…+k = k(k+1)/2 ~ (k^2)/2. Now that T = (1/2) * (k^2), k = √(2T). From k(k−1)/2 to k(k+1)/2, we toss egg one by one, then we toss (1/2)*(k^2) times. In total, we toss 2√(2T) times, thus c = 2√2._
 
-    Version 0: sequential search.
-    Version 1: binary search.
-    Version 2: find an interval containing T of size ≤2T, then do binary search.
-    Version 3: find an interval of size sqrt(n), then do sequential search. 
-    Version 4: 1 + 2 + 3 + ... + t ∼ 1/2 t^2. Aim for c = 2 sqrt(2). 
+Algorithm: 
+
+Version 0: sequential search.
+
+    int T = 0;
+    for i = 0 to n do:
+        if Floors[i] = true:
+            T = i;
+            break;
+        end if
+    end for
+    return T + 1   
+    
+Version 1: binary search.
+
+    add
+    
+Version 2: find an interval containing T of size ≤2T, then do binary search.
+
+    add
+    
+Version 3: find an interval of size sqrt(n), then do sequential search. 
+
+    add
+    
+Version 4: 1 + 2 + 3 + ... + t ∼ 1/2 t^2. Aim for c = 2 sqrt(2). 
+
+    add
 
 References: 
 
