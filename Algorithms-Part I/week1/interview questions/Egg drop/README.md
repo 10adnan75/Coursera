@@ -22,7 +22,7 @@ Version 2: _Start test at floor 0 and exponentially grow (2^t) floor numbers unt
 
 Version 3: _Test floors in increments of sqrt(N) starting from floor 0. When the egg breaks on floor t, return to the previous test floor t-1 and increment by each floor. The remaining sqrt(N) tests will be enough to check each floor between floor t-1 & t. The floor that breaks will be the value of T._
 
-Version 4: _We drop the egg at floor 1, 3(1+2), 6(1+2+3), 10(1+2+3+4), so on and so forth. Note that 1+2+3+4+…+k = k(k+1)/2 ~ (k^2)/2. Now that T = (1/2)*(k^2), k = √(2T). From k(k−1)/2 to k(k+1)/2, we toss egg one by one, then we toss (1/2) * (k^2) times. In total, we toss 2√(2T) times, thus c = 2√2._
+Version 4: _We drop the egg at floor 1, 3(1+2), 6(1+2+3), 10(1+2+3+4), so on and so forth. Note that 1+2+3+4+…+k = k(k+1)/2 ~ (k^2)/2. Now that T = (1/2) * (k^2), k = √(2T). From k(k−1)/2 to k(k+1)/2, we toss egg one by one, then we toss (1/2)*(k^2) times. In total, we toss 2√(2T) times, thus c = 2√2._
 
     Version 0: sequential search.
     Version 1: binary search.
