@@ -14,6 +14,14 @@ Your goal is to devise a strategy to determine the value of T given the followin
           
 **Answer:** 
 
+Version 0: Try each floor starting from the bottom, the first floor that the egg breaks on is the value of T.
+
+Version 1: Use a binary search on the floors. First, try floor T/2. If the egg breaks, T must be equal to T/2 or smaller. If the egg does not break, T must be greater than T/2. Continue testing the mid-point of the subset of floors until T is determined.
+
+Version 2: Start test at floor 0 and exponentially grow (2^t) floor numbers until first egg breaks. The value of T must be between 2^t and 2^(t-1). This range can then be searched in ~lgT tosses using the technique from version 1.
+
+Version 3: Test floors in increments of sqrt(N) starting from floor 0. When the egg breaks on floor t, return to the previous test floor t-1 and increment by each floor. The remaining sqrt(N) tests will be enough to check each floor between floor t-1 & t. The floor that breaks will be the value of T.
+
     Version 0: sequential search.
     Version 1: binary search.
     Version 2: find an interval containing T of size ≤2T, then do binary search.
