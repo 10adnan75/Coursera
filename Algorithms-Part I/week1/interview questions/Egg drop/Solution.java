@@ -59,22 +59,22 @@ class Solution {
         return T + 1;
     }
     
-	public static void main (String[] args) throws java.lang.Exception {
-		Scanner input = new Scanner(System.in);
-		System.out.print("How many floors?: "); int floors = input.nextInt();
-		System.out.print("Enter T: "); int T = input.nextInt();
-		boolean[] Floors =  new boolean[floors];
-		System.out.println("Enter 'true' if breaks else 'false'.");
-		for (int i=0; i<floors; i++) {
-		    System.out.print("Floor " + (i+1) + ": ");
-		    Floors[i] = input.nextBoolean();
-		}
-		// Solution solution = new Solution(floors, Floors);
-		int c = 7;
-		System.out.println("Version 0: Floor " + version_0(floors, Floors, 1, T));
-		System.out.println("Version 1: Floor " + version_1(floors, Floors, (int)Math.log(floors), (int)Math.log(floors)));
-		System.out.println("Version 2: Floor " + version_2(floors, Floors, (int)Math.log(T), (int)(2*Math.log(T))));
-		System.out.println("Version 3: Floor " + version_3(floors, Floors, 2, (int)(2*Math.sqrt(floors))));
-		System.out.println("Version 4: Floor " + version_4(floors, Floors, 2, (int)(c*Math.sqrt(T))));
-	}
+    public static void main (String[] args) throws java.lang.Exception {
+        Scanner input = new Scanner(System.in);
+        System.out.print("How many floors?: "); int floors = input.nextInt();
+        System.out.print("Enter T: "); int T = input.nextInt();
+        boolean[] Floors =  new boolean[floors];
+        System.out.println("Enter 'true' if breaks else 'false'.");
+        for (int i=0; i<floors; i++) {
+            System.out.print("Floor " + (i+1) + ": ");
+            Floors[i] = input.nextBoolean();
+        }
+        // Solution solution = new Solution(floors, Floors);
+        int c = 7;
+        System.out.println("Version 0: Floor " + version_0(floors, Floors, 1, T));
+        System.out.println("Version 1: Floor " + version_1(floors, Floors, (int)Math.log(floors), (int)Math.log(floors)));
+        System.out.println("Version 2: Floor " + version_2(floors, Floors, (int)Math.log(T), (int)(2*Math.log(T))));
+        System.out.println("Version 3: Floor " + version_3(floors, Floors, 2, (int)(2*Math.sqrt(floors))));
+        System.out.println("Version 4: Floor " + version_4(floors, Floors, 2, (int)(c*Math.sqrt(T))));
+    }
 }
