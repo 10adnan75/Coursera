@@ -22,7 +22,6 @@ Your goal is to devise a strategy to determine the value of T given the followin
 
 References: 
 
-* [ThreeSumFast.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/ThreeSumFast.java)           
-* [two_pointers_3sum.cpp](https://github.com/10adnan75/DSA/blob/main/Algorithms/Searching/Binary%20search/two_pointers_3sum.cpp)
-* [ThreeSum.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Arrays/ThreeSum.java)
+* [linear_search.cpp](https://github.com/10adnan75/DSA/blob/main/Algorithms/Searching/linear_search.cpp)           
+* [BinarySearch.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Searching/Binary%20search/BinarySearch.java)
 * [Stack Exchange](https://math.stackexchange.com/questions/835582/egg-drop-problem)
