@@ -1,4 +1,0 @@
-Question: Explain why Java prohibits generic array creation.
-
-Answer: Generic array creation is prohibited in Java because the runtime would arise a safety check error as it would be unable to determine the type of array.
-
