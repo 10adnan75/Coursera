@@ -10,7 +10,19 @@ Generate two stacks, one for enqueueing and the other for dequeuing. Push all co
 
 Algorithm:
 
-    add
+    // initialization of the stacks
+    Stack<Integer> stack1, stack2
+    
+    // enqueue
+    stack1.push(data)
+    
+    // dequeue
+    if (stack2.isEmpty()) then:
+        while not stack1.isEmpty() do:
+            stack2.push(stack1.pop())
+        end while
+    end if
+    return stack2.pop()
     
 References:
 
