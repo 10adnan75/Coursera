@@ -10,54 +10,30 @@ The numbers are stored in one stack, while the _max-so-far_ is kept in the other
 
 Algorithm:
 
-    public class StackArray<E> 
-        private E[] stack
-        private int N
+    public void push(double item) 
+        Node oldFirst = data
+        data = new Node()
+        data.item = item
+        data.next = oldFirst
+        N++
+        if item >= getMax() then:
+            Node oldMax = max
+            max = new Node()
+            max.next = oldMax
+        end if
 
-        public StackArray() 
-            stack = (E[]) new Object[1]
-            N = 0;
+    public double pop() 
+        double temp = data.item
+        data = data.next
+        N--
+        if temp == getMax() then:
+            max = max.next
+        end if
+        return temp
 
-        public boolean isEmpty() 
-            return N == 0
+    public double getMax() 
+        return max.item
 
-        public int size() 
-            return N
-
-        public void resize(int capacity) 
-            E[] newStack = (E[]) new Object[capacity]
-            for i = 0 to N do:
-                newStack[i] = stack[i]
-            end for
-            stack = newStack
-            return
-
-        public void push(E data) 
-            stack[N++] = data
-            if N == stack.length then:
-                resize(stack.length*2)
-            end if
-            return
-
-        public E pop() 
-            E data = stack[--N]
-            stack[N] = null
-            if N > 0 and N == stack.length/4 then:
-                resize(stack.length/2)
-            end if
-            return data
-
-        public int getMax() 
-            int copySize = N, max = 0
-            while copySize-- > 0 do:
-                if stack[copySize] > max then:
-                    max = stack[copySize]
-                end if
-            end while
-            return max
-
-        public static void main(String[] args) // client
-        
 References:
 
 + [StackWithMax.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Stacks/StackWithMax.java)
