@@ -12,5 +12,5 @@ Algorithm:
     
 References:
 
-+ []()
-+ []()
++ [ShuffleLL.java](https://github.com/10adnan75/DSA/blob/main/Algorithms/Linked%20lists/ShuffleLL.java)
++ [ListShuffling](https://web.stanford.edu/class/cs9/sample_probs/ListShuffling.pdf)
