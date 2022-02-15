@@ -12,7 +12,7 @@
 
 #### Open Source Software Development, Linux and Git - [GitHub](https://github.com/10adnan75/Coursera/tree/main/Open%20Source%20Software%20Development%2C%20Linux%20and%20Git%20Specialization) | [Coursera](https://www.coursera.org/specializations/oss-development-linux-git)
 
-### Data Structures and Algorithms Specialization - [GitHub](https://github.com/10adnan75/Coursera/tree/main/Data%20Structures%20and%20Algorithms%20Specialization) | [Coursera](https://www.coursera.org/specializations/data-structures-algorithms)
+#### Data Structures and Algorithms Specialization - [GitHub](https://github.com/10adnan75/Coursera/tree/main/Data%20Structures%20and%20Algorithms%20Specialization) | [Coursera](https://www.coursera.org/specializations/data-structures-algorithms)
 
 ---
 
