@@ -1,4 +1,4 @@
-## Learning Objectives
+**Learning Objectives**
 
 + Practice implementing algorithms
 + Practice testing and stress testing programs
