@@ -24,10 +24,10 @@ int compute_min_refills(int dist, int tank, vector<int> & stops) {
 		if (flag) {
 			if (i == stops.size()) {
 				break;
-			}
-			current_stop = stops[i - 1];
-			dist_covered = current_stop;
-			num_stops += 1;
+		}
+		current_stop = stops[i - 1];
+		dist_covered = current_stop;
+		num_stops += 1;
 		} else {
 			return -1;
 		}
