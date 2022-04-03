@@ -11,13 +11,13 @@ This online course covers basic algorithmic techniques and ideas for computation
 
 ## Issued on
 
-Feb 17, 2022
+Apr 1, 2022
 
 ---
 
 ## Certification
 
-![image](https://user-images.githubusercontent.com/52044177/124921939-96de8580-e016-11eb-87af-f3afc764d905.png)
+![image](https://user-images.githubusercontent.com/52044177/161428256-157fd50d-4d4e-43c1-884d-47af418ca336.png)
 
 ---
 
