@@ -1,2 +1,0 @@
-Tuples are our third and final basic Python data structure. Tuples are a simple version of lists. 
-We often use tuples in conjunction with dictionaries to accomplish multi-step tasks like sorting or looping through all of the data in a dictionary.
